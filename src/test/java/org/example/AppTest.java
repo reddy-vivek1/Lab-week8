@@ -15,6 +15,7 @@ public class AppTest
     public void testStack()
     {
         MyStack<Integer> stack = new MyStack<>();
+        stack.push(1);
         assertTrue(stack.isEmpty());
     }
 }
